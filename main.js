@@ -75,6 +75,6 @@ function addClass1 (event) {
  }
 const btn = document.querySelectorAll('.buy');
 btn.forEach(elem => elem.addEventListener('click', (event)=>{
-    event = window.alert('Good shoise!');
+    event = window.alert('Good choise!');
     document.location.href = 'index.html'
 }))
